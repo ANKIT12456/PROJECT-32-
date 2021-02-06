@@ -154,7 +154,7 @@ function keyPressed(){
 }
 
 async function getTime(){
-    var response= await fetch("http://worldtimeapi.org/timezone/Asia/Kolkata");
+    var response= await fetch("https://worldtimeapi.org/timezone/Asia/Kolkata");
     var responseType= await response.json();
 
     console.log(responseType);
